@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      gridTemplateColumns:{
+        fluid:'repeat(auto-fill,minmax(15rem,1fr))'
+      }
     },
   },
   plugins: [],
